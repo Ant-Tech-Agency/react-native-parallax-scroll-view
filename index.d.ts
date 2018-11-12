@@ -9,6 +9,7 @@ export interface ParallaxScrollViewProps {
     backgroundColor?: string;
     contentBackgroundColor?: string;
     fadeOutForeground?: boolean;
+    fadeOutBackground?: boolean;
     onChangeHeaderVisibility?: (value: boolean) => void;
     renderScrollComponent?: (props: any) => JSX.Element;
     renderBackground?: (params: RenderBackgroundParams) => JSX.Element;
